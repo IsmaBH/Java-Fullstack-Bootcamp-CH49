@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de Nosotros</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Archivo CSS personalizado -->
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <!-- Section for the main navbar -->
+    <!-- I added the sticky-top class because I like more that the navbar is always visible so I don't have to scroll all the way up -->
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary" id="main-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <!-- The logo image doesn't seem to fit right maybe try to change the width and height properties or change the logo -->
+                <img src="../IMG/Logo_Prueba.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                El Jardin Floral
+            </a>
+            <!-- The button with class navbar-toggler and its span are elements only visible when the menu collapses when the viewport reduces its size-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- The elements of the navigation bar begin here -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto p-2">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./HTML/about.html">Acerca de Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contactanos</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <ul>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Iniciar sesión</a>
+                        </li>
+                    </ul>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <!---------------------------->
+    <!-- Encabezado -->
+    <header class="bg-primary text-white text-center py-5" id="secondary-navbar">
+        <h1>Acerca de Nosotros</h1>
+        <p>Este proyecto tiene como objetivo la creación de una tienda en línea para la florería "El Jardín Floral". El
+            comercio electrónico (e-commerce) es una modalidad de venta que se ha popularizado en los últimos años,
+            permitiendo a las empresas ofrecer sus productos y servicios a través de plataformas digitales. Su
+            implementación tiene como fin aumentar las ventas mediante el aprovechamiento de herramientas digitales para
+            atraer a más clientes. El e-commerce contará con funcionalidades destacadas, como la opción de programar
+            envíos, entregas a domicilio, recolección en tienda (Click & Collect) y pagos seguros. Además, la plataforma
+            ofrecerá a los clientes un amplio catálogo de productos y facilitará la realización de pedidos para arreglos
+            florales en diversas temporadas y ocasiones especiales.</p>
+    </header>
+
+    <!-- Sección del equipo -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Nuestro Equipo</h2>
+        <div class="row">
+            <!-- Miembro 1 -->
+            <div class="col-md-4 text-center">
+                <img src="../IMG/DiegoBaronHernandezMiembro1.webp" class="rounded-circle mb-3" alt="Foto del miembro"
+                    height="150px" width="150px">
+                <h3>Diego Ismael Barón Hernández</h3>
+                <p class="text-muted">Papel en el proyecto: Product owner, Scrum Master, QA y miembro del equipo de
+                    desarrollo.
+                </p>
+                <p>Soy un ingeniero de software con una gran pasión por los datos y sus aplicaciones con junto con el
+                    desarrollo
+                    web.
+                    Durante este proyecto tomé roles de Product Owner y Scrum Master de la metodologia SCRUM en un orden
+                    rotativo
+                    para
+                    diferentes etapas del proyecto, también realice labores de QA para algunas etapas y apoye con
+                    diferentes
+                    aspectos
+                    tecnicos de la programación del sitio.
+                </p>
+                <h6>Enlaces: </h6>
+                <div class="btn-group">
+                    <a href="https://github.com/IsmaBH" class="btn btn-primary" target="_blank">github</a>
+                    <a href="https://www.linkedin.com/in/diego-ismabh-i" class="btn btn-primary"
+                        target="_blank">Linkedin</a>
+                </div>
+            </div>
+            <!-- Miembro 2 -->
+            <div class="col-md-4 text-center">
+                <img src="../IMG/JackelineMontalvoMiembro2.webp" class="rounded-circle mb-3"
+                    alt="Foto de Jackeline Montalvo" height="150px" , width="150px">
+                <h3>Jackeline Montalvo González</h3>
+                <p class="text-muted">Papel en el proyecto: Product Owner, Scrum Master y miembro del equipo de
+                    desarrollo</p>
+                <p>Desarrolladora Fullstack con gran interés en la tecnología y el desarrollo web. En este proyecto,
+                    asumí los
+                    roles de Product Owner y Scrum Master, enfocándome en priorizar los requisitos del producto y en
+                    gestionar el
+                    flujo de trabajo y la comunicación del equipo. Como miembro del Dev Team, apliqué herramientas y
+                    tecnologías
+                    de front-end y back-end, junto con habilidades de comunicación y trabajo en equipo a lo largo del
+                    desarrollo e
+                    implementación.</p>
+                <h6>Enlaces: </h6>
+                <div class="btn-group">
+                    <a href="https://github.com/jmontlvg" class="btn btn-primary" target="_blank">github</a>
+                    <a href="https://www.linkedin.com/in/jackelinemontalvog/" class="btn btn-primary"
+                        target="_blank">Linkedin</a>
+                </div>
+            </div>
+            <!-- Miembro 3 -->
+            <div class="col-md-4 text-center">
+                <img src="../IMG/KatherineReyesMiembro3.webp" class="rounded-circle mb-3" alt="Foto de Katherine Reyes"
+                    height="150px" width="150px">
+                <h3>Katherine Reyes Alonso</h3>
+                <p class="text-muted">Papel en el proyecto: Product Owner, Scrum Master y miembro del equipo de
+                    desarrollo</p>
+                <p>Ingeniera en Computación con experiencia en desarrollo Full Stack e Infraestructura en TI. Durante
+                    este proyecto, asumí múltiples responsabilidades: lideré la planificación estratégica como Product
+                    Owner, facilité el trabajo en equipo aplicando metodologías ágiles como Scrum Master y aporté en el
+                    desarrollo técnico, enfocándome en la implementación de soluciones efectivas y responsivas
+                </p>
+                <h6>Enlaces: </h6>
+                <div class="btn-group">
+                    <a href="https://github.com/KatherineReAl" class="btn btn-primary" target="_blank">github</a>
+                    <a href="https://www.linkedin.com/in/katherine-reyes-alonso/" class="btn btn-primary"
+                        target="_blank">Linkedin</a>
+                </div>
+            </div>
+            <!-- Miembro 4 -->
+            <div class="col-md-4 text-center">
+                <img src="../IMG/img-Wen.webp" class="rounded-circle mb-3" alt="Foto del miembro" height="150px"
+                    width="150px">
+                <h3>Wendy Meneses Hernández</h3>
+                <p class="text-muted">Papel en el proyecto: Product Owner, Scrum Master y miembro del equipo de
+                    desarrollo</p>
+                <p>Diseñadora y desarrolladora Java Fullstack con interés en la tecnología y el desarrollo web. Para
+                    este proyecto
+                    fuí la responsable de la programación de la página, me centré en el diseño y el desarrollo de la
+                    página de forma
+                    orgánica junto a mi equipo, ayudé a mis compañeros con sus dudas y facilité las herramientas
+                    necesarias para que todos tuvieramos un
+                    entorno favorable para el cumplimiento del proyecto. Como miembro del Dev Team, apliqué herramientas
+                    y tecnologías
+                    de front-end y back-end, junto con habilidades de comunicación y trabajo en equipo a lo largo del
+                    desarrollo e
+                    implementación.</p>
+                <h6>Enlaces: </h6>
+                <div class="btn-group">
+                    <a href="https://github.com/WendymMenHer" class="btn btn-primary" target="_blank">github</a>
+                    <a href="https://www.linkedin.com/in/wendy-meneses-dw/" class="btn btn-primary"
+                        target="_blank">Linkedin</a>
+                </div>
+            </div>
+            <!-- Miembro 5 -->
+            <div class="col-md-4 text-center">
+                <img src="../IMG/MarcoAntonioMedinaDiaz.webp" class="rounded-circle mb-3"
+                    alt="Foto del miebro: Marco Antonio" height="150px" width="150px">
+                <h3>Marco Antonio Medina Díaz</h3>
+                <p class="text-muted">Papel en el proyecto: Product Owner, Scrum Master y miembro del equipo de
+                    desarrollo</p>
+                <p>Soy un desarrollador en constante crecimiento y aprendizaje.
+                    Ayudo a dar estructura a los proyectos y gestiono la calidad de los mismos.
+                    Me permito disfrutar de cada proyecto y llevarlo a su punto más alto, manteniendo los estándares más
+                    altos de calidad.
+                </p>
+                <h6>Enlaces: </h6>
+                <div class="btn-group">
+                    <a href="https://github.com/MarcoMedinaD" class="btn btn-primary" target="_blank">github</a>
+                    <a href="https://www.linkedin.com/in/marco-antonio-medina-díaz-b86470180/" class="btn btn-primary"
+                        target="_blank">Linkedin</a>
+                </div>
+            </div>
+            <!-- Miembro 6 -->
+            <div class="col-md-4 text-center">
+                <img src="../IMG/AngelL.webp" class="rounded-circle mb-3" alt="Foto del miebro: Luis Angel L."
+                    height="150px" width="150px">
+                <h3>Luis Angel Lira Gonzalez.</h3>
+                <p class="text-muted">Papel en el proyecto: Product Owner,
+                    Scrum Master y miembro del equipo de
+                    desarrollo</p>
+                <p>Ingeniero en sistemas computacionales con un diplomado en
+                    aplicaciones móviles y Certificación en Desarrollador Full
+                    Stack jr. En el proyecto presente se desarrolló las responsabilidades
+                    tales como: liderar estrategias, trabajo en equipo y desarrollo del diseño,
+                    documentación y sitio web responsivo programando CSS, HTML, JS
+                </p>
+                <div class="btn_grup">
+                    <div>
+                        <a href="https://github.com/AngelLira2104" class="btn btn-primary" target="_blank">GitHub</a>
+                        <a href="https://www.linkedin.com/in/luis-angel-lira-gonz%C3%A1lez-064212331/"
+                            class="btn btn-primary" target="_blank">Linkedin</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Miembro 7 -->
+            <div class="col-md-4 text-center">
+                <img src="../IMG/JEVR2.webp" class="rounded-circle mb-3" alt="Foto del miembro" height="150px" width="150px">
+                <h3>Jorge Emilio Vázquez Reyes</h3>
+                <p class="text-muted">Papel en el proyecto: Scrum Master, Product Owner y parte del equipo de desarrollo
+                </p>
+                <p>Estudié administración y soy una persona creativa, puntual, responsable y organizada, con gran
+                    capacidad de adaptación a
+                    los cambios, estudié la carrera de Administración y mis ganas de conocer más sobre temas
+                    relacionados
+                    a la tecnología me impulsaron para ser desarrollador Java full Stack, duarante este
+                    proyecto me desempeñe como Product Owner, adquirí experiencia como Scrum Master y aporté al
+                    desarrollo del proyecto
+                    como miembro del equipo de desarrollo.</p>
+                <h6>Enlaces: </h6>
+                <div class="btn-group">
+                    <a href="https://github.com/JEVR-JS" class="btn btn-primary" target="_blank">github</a>
+                    <a href="https://www.linkedin.com/in/jorge-emilio-vazquez-reyes-a9a601263/" class="btn btn-primary"
+                        target="_blank">Linkedin</a>
+                </div>
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 - Proyecto E-Commerce El Jardin Floral</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Animaciones personalizadas -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const headers = document.querySelectorAll("h3");
+            headers.forEach((header) => {
+                header.addEventListener("mouseover", () => {
+                    header.style.transform = "scale(1.1)";
+                    header.style.transition = "transform 0.3s";
+                });
+                header.addEventListener("mouseout", () => {
+                    header.style.transform = "scale(1)";
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

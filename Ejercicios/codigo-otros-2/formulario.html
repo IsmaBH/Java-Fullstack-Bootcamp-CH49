@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" media="screen" href="./styles.css">
+  <title>Formulario</title>
+</head>
+<body>
+  <h1>Bienvenidos a mi fiesta</h1>
+  <h2>Por favor, confirmar asistencia:</h2>
+
+  <form class="formulario">
+    <!--Es mejor tener labels para cada input -->
+    <label for="name">Nombre </label>
+    <input type="text" name="name" id="name">
+    <br />
+    <label for="age">Edad </label>
+    <input type="number" name="age" id="age">
+    <br />
+
+    Nacionalidad
+    <!-- Ya que en el js la nacionalidad se expande es mejor tenerlo desde aqui -->
+    <select name="nationality" id="nationality">
+      <option value="Argentina">Argentina</option>
+      <option value="Mexicana">Mexicana</option>
+      <option value="Peruana">Peruana</option>
+      <option value="Venezolana">Venezolana</option>
+    </select>
+    <br />
+    <input type="submit">
+  </form>
+  <!-- El titulo no deberia estar dentro del div contenedor de la lista-->
+  <h2>Lista de invitados</h2>
+  <!--Los invitados deberian mostrarse en una tabla de invitados -->
+  <table id="listaInvitados">
+    <tr>
+      <th>Nombre</th>
+      <th>Edad</th>
+      <th>Nacionalidad</th>
+      <th>Acción</th>
+    </tr>
+  </table>
+  <!-- No necesita los .. -->
+  <script src="formulario.js"></script>
+</body>
+
+</html>
